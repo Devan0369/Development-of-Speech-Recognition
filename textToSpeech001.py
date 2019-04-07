@@ -9,6 +9,6 @@ with open("alife_tts.txt","r") as file:
         text=text + line
 
 
-speech=gTTS(text,'en','slow')
+speech=gTTS(text,'en')
 
-speech.save("AlifeIntro.mp3")
+speech.save("AlifeIntro.wav")
