@@ -4,7 +4,7 @@
 
 from gtts import gTTS
 text=""
-with open("tts.txt","r") as file:
+with open("alife_tts.txt","r") as file:
     for line in file:
         text=text + line
 
