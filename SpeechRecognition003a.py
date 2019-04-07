@@ -4,7 +4,7 @@ from os import path
 
 from pprint import pprint
 
-audio_file = path.join(path.dirname(path.realpath(__file__)), "aiwavaudio.wav")
+audio_file = path.join(path.dirname(path.realpath(__file__)), "alfwavaudio.wav")
 
 r = sr.Recognizer()
 with sr.AudioFile(audio_file) as source:
